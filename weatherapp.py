@@ -20,7 +20,7 @@ try:
 #Mechenism
      
      def weather_data(query):
-                     res=requests.get('http://api.openweathermap.org/data/2.5/weather?'+query+'&appid=06c921750b9a82d8f5d1294e1586276f');
+                     res=requests.get('http://api.openweathermap.org/data/2.5/weather?'+query+'&appid=3dc7a5bfb8d2dc3b3e75dbe1724f80a8');
                      return res.json();
   
 
